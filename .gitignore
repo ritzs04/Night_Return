@@ -1,0 +1,16 @@
+# Build output
+target/
+*.class
+*.war
+*.ear
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local config and secrets (never commit real passwords or API keys)
+.env
+*.local.properties
